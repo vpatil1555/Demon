@@ -1,7 +1,12 @@
-var btn = document.getElementById("btn");
-        var light = document.getElementById("light");
 
-        function togglebtn(){
-            btn.classList.toggle("active");
-            light.classList.toggle("on");
-        }
+function changeimage(x, image)
+{
+if(x==1)
+{       
+image.src = 'images/TanjiroH.png';
+}
+if(x==2)
+{
+image.src = 'images/d78093cb6c2f5ff73c0bc2b27a72bbfa.png';
+}
+}
